@@ -1,0 +1,14 @@
+## Teste 2
+
+def num(s):
+    try:
+        int(s)
+        return True
+    except ValueError:
+        return False
+
+lista1 = ["75","72","68","d","101","f"]
+for valor in lista1:
+    if num(valor) == False:
+        print(lista1.index(valor))
+        break

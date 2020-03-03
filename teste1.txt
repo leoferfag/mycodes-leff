@@ -1,0 +1,8 @@
+## Teste 1
+
+palavra = input('Digite o nome da palavra que você quer verificar se é palíndromo: ')
+
+if palavra.replace(" ","") == palavra[::-1].replace(" ",""):
+    print('A palavra é um palíndromo? SIM')
+else:
+    print('A palavra é um palíndromo? NÃO')
